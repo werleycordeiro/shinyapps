@@ -1,3 +1,4 @@
+library(plotly)
 colors1 <- c("black","#bbdcfc","#B7D9E2","#86B6C6","#5C93AA","#3A728E","#1F5372","#0C3756","darkblue")
 
 rename_maturities <- c("3-month <br> DI rates","6-month", "9-month", "1-year", "2-year", "3-year", "4-year", "5-year", "6-year")
