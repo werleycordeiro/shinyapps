@@ -1,4 +1,5 @@
 # 3D
+library(plotly)
 colors <- c("#edf4fe","#70bdf2","#315d7e","#243d53")
 
 fig <- plot_ly(x = dates,
