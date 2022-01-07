@@ -1,3 +1,4 @@
+library(plotly)
 matrix3 <- xts(yields, order.by = dates)
 matrix3 <- matrix3[xts:::endof(matrix3, "months")]
 rates <- matrix(t(matrix3), prod(dim(matrix3)) , 1)
